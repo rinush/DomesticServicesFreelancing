@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:contentScrim="?android:attr/colorAccent"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:toolbarId="@+id/toolbar">
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="android.support.design.widget.AppBarLayout$ScrollingViewBehavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="50dp"
+                app:cardBackgroundColor="#ffffff">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="50"
+                        android:layout_marginTop="30px"
+                        android:textSize="35px"
+                        android:text="Home Cleaning, Car Cleaning and Carpet Cleaning "
+                        android:textAlignment="textStart"
+                        android:textColor="#000000" />
+
+                    <ImageView
+                        android:id="@+id/imageView20"
+                        android:layout_width="630px"
+                        android:layout_height="210px"
+                        android:layout_weight="50"
+                        app:srcCompat="@drawable/carcleaning2" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="15dp"
+                app:cardBackgroundColor="#ffffff">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="50"
+                        android:layout_marginTop="30px"
+                        android:text="Plumbers, Carpenters and Electricians"
+                        android:textSize="35px"
+                        android:textAlignment="textStart"
+                        android:textColor="#000000" />
+
+                    <ImageView
+                        android:id="@+id/imageView21"
+                        android:layout_width="630px"
+                        android:layout_height="210px"
+                        android:layout_weight="50"
+                        app:srcCompat="@drawable/plumber1" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="15dp"
+                app:cardBackgroundColor="#ffffff">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30px"
+                        android:text="Beauty Services, Massage, Physiotherapy"
+                        android:textSize="35px"
+                        android:layout_weight="50"
+                        android:textAlignment="textStart"
+                        android:textColor="#000000" />
+
+                    <ImageView
+                        android:id="@+id/imageView22"
+                        android:layout_width="630px"
+                        android:layout_height="210px"
+                        android:layout_weight="50"
+                        app:srcCompat="@drawable/physiotherapy1" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="15dp"
+                app:cardBackgroundColor="#ffffff">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30px"
+                        android:text="Appliance Repair and other services"
+                        android:layout_weight="50"
+                        android:textSize="35px"
+                        android:textAlignment="textStart"
+                        android:textColor="#000000" />
+
+                    <ImageView
+                        android:id="@+id/imageView23"
+                        android:layout_width="630px"
+                        android:layout_height="210px"
+                        android:layout_weight="50"
+                        app:srcCompat="@drawable/computerrepair1" />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:cardBackgroundColor="#ffffff"
+                android:layout_marginTop="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView27"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cook, Gardener, Care taker, HouseMaid, Pest Control"
+                        android:layout_weight="50"
+                        android:layout_marginTop="30px"
+                        android:textSize="35px"
+                        android:textAlignment="textStart"
+                        android:textColor="#000000" />
+
+                    <ImageView
+                        android:id="@+id/imageView24"
+                        android:layout_width="630px"
+                        android:layout_height="210px"
+                        android:layout_weight="50"
+                        app:srcCompat="@drawable/cook2" />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical"
+                app:cardBackgroundColor="#ffffff">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView28"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Home Painter, POP maker, Decorator, Caterer, Wedding Planner"
+                        android:layout_weight="50"
+                        android:layout_marginTop="30px"
+                        android:textSize="35px"
+                        android:textAlignment="textStart"
+                        android:textColor="#000000" />
+
+                    <ImageView
+                        android:id="@+id/imageView25"
+                        android:layout_width="630px"
+                        android:layout_height="210px"
+                        android:layout_weight="50"
+                        app:srcCompat="@drawable/homepainter1" />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical"
+                app:cardBackgroundColor="#ffffff">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Home Tutors"
+                        android:layout_weight="50"
+                        android:layout_marginTop="30px"
+                        android:textSize="35px"
+                        android:textAlignment="textStart"
+                        android:textColor="#000000" />
+
+                    <ImageView
+                        android:id="@+id/imageView28"
+                        android:layout_width="630px"
+                        android:layout_height="210px"
+                        android:layout_weight="50"
+                        app:srcCompat="@drawable/tutor2" />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="10px"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical"
+                app:cardBackgroundColor="#ffffff">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView35"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Fitness and Yoga Trainers, Dietician"
+                        android:layout_weight="50"
+                        android:layout_marginTop="30px"
+                        android:textSize="35px"
+                        android:textAlignment="textStart"
+                        android:textColor="#000000" />
+
+                    <ImageView
+                        android:id="@+id/imageView29"
+                        android:layout_width="630px"
+                        android:layout_height="210px"
+                        android:layout_weight="50"
+                        app:srcCompat="@drawable/fitnesstrainer2" />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="10px"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical"
+                app:cardBackgroundColor="#ffffff">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView36"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Groceries"
+                        android:layout_weight="50"
+                        android:layout_marginTop="30px"
+                        android:textSize="35px"
+                        android:textAlignment="textStart"
+                        android:textColor="#000000" />
+
+                    <ImageView
+                        android:id="@+id/imageView30"
+                        android:layout_width="630px"
+                        android:layout_height="210px"
+                        android:layout_weight="50"
+                        app:srcCompat="@drawable/grocery" />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        android:elevation="5dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/home"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                app:srcCompat="@drawable/home" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home"
+                android:paddingLeft="30dp"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="15dp">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/message"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                app:srcCompat="@drawable/message" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Message"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:paddingLeft="25dp"
+                android:textSize="15dp">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/feedback"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                app:srcCompat="@drawable/feedback" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FeedBack"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:paddingLeft="15dp"
+                android:textSize="15dp">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/Log_Out"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                app:srcCompat="@drawable/log_out" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LogOut"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:paddingLeft="5dp"
+                android:textSize="15dp">
+
+            </TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

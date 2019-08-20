@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "300926034497",
+    "firebase_url": "https://domesticservicesfreelancing.firebaseio.com",
+    "project_id": "domesticservicesfreelancing",
+    "storage_bucket": "domesticservicesfreelancing.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300926034497:android:672e0ce7668da6ab",
+        "android_client_info": {
+          "package_name": "com.example.rkg09.domesticservicesfreelancing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300926034497-vsu4bfh8fla3j794o4bo8nj2uj4eeb3g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rkg09.domesticservicesfreelancing",
+            "certificate_hash": "9a4a95c32140b0e3257d14fd39a80fa93d486463"
+          }
+        },
+        {
+          "client_id": "300926034497-scs08211h0uf0hgu4pcua3r0fhd0q6mb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDNj8TGeH01Ug-Bwpczx-eTGtNXJDBXvo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300926034497-scs08211h0uf0hgu4pcua3r0fhd0q6mb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
